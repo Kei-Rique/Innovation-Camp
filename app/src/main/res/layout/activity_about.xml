@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/txt_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="About"
+            android:textColor="@android:color/white"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edittext">
+        <TextView
+            android:id="@+id/txt_aboutwebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="About the Website"
+            android:textColor="@android:color/white"
+            android:textSize="40dp" />
+        <TextView
+            android:id="@+id/txt_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/txt_aboutwebsite"
+            android:text="The website focuses on SDG#9 - Industry, Innovation, Infrastructure
+Specifically, about Augmented Reality"
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edittext"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/txt_aboutsdg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Sustainable Development Goal"
+            android:textColor="@android:color/white"
+            android:textSize="40dp" />
+        <TextView
+            android:id="@+id/txt_sdg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/txt_aboutsdg"
+            android:text="The Sustainable Development Goals are the blueprint to achieve a better and more sustainable future for all."
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edittext"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/txt_about9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Goal #9"
+            android:textColor="@android:color/white"
+            android:textSize="40dp" />
+        <TextView
+            android:id="@+id/txt_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/txt_about9"
+            android:text="The goal is to build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation."
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edittext"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/txt_aboutar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Augmented Reality"
+            android:textColor="@android:color/white"
+            android:textSize="40dp" />
+        <TextView
+            android:id="@+id/txt_ar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/txt_aboutar"
+            android:text="Augmented reality is an interactive experience of a real-world environment where the objects that reside in the real world are enhanced by computer-generated perceptual information."
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_edittext"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/txt_aboutother"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Other Sustainable Development Goal"
+            android:textColor="@android:color/white"
+            android:textSize="40dp" />
+        <TextView
+            android:id="@+id/txt_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/txt_aboutother"
+            android:text="If you want to know more about the Sustainable Development Goals, Visit: www.un.org"
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
